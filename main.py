@@ -107,7 +107,7 @@ def main():
     class_names = ['1-2 Days', '3-4 Days', '5-7 Days', '7+ Days']
 
     # Generate Confusion Matrix
-    plot_confusion_matrix(y_true, y_pred, class_names, test_loss, test_acc, test_f1)
+    plot_confusion_matrix(y_true, y_pred, class_names, test_acc, test_f1)
 
     print("========================================")
     print(f"Final Test Results")
