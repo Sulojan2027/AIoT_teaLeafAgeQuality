@@ -1,0 +1,4 @@
+[core]
+    remote = s3_registry
+['remote "s3_registry"']
+    url = s3://iotea-model-dvc-store
